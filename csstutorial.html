@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Tutorial - Kai Personal Project</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Tutorial for Beginners</h1>
+        <p>CSS (Cascading Style Sheets) is used to control the style and layout of a website. It allows you to separate design from content, making your website more maintainable and visually appealing.</p>
+
+        <h2>Linking a CSS File</h2>
+        <p>Link an external CSS file in your HTML document using the <code>&lt;link&gt;</code> tag in the <code>&lt;head&gt;</code> section:</p>
+        <pre class="code-block">
+&lt;link rel="stylesheet" href="styles.css"&gt;
+        </pre>
+
+        <h2>CSS Syntax</h2>
+        <p>A CSS rule has three main parts: selector, property, and value:</p>
+        <pre class="code-block">
+selector {
+    property: value;
+}
+        </pre>
+        <p>For example:</p>
+        <pre class="code-block">
+h1 {
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+        </pre>
+
+        <h2>Selectors</h2>
+        <p>CSS selectors specify the elements to style. Common selectors include:</p>
+        <ul>
+            <li><strong>Type Selector:</strong> Targets HTML tags directly. Example: <code>p { color: red; }</code></li>
+            <li><strong>Class Selector:</strong> Targets elements with a specific class. Example: <code>.myClass { font-size: 20px; }</code></li>
+            <li><strong>ID Selector:</strong> Targets a unique ID. Example: <code>#myId { background-color: gray; }</code></li>
+        </ul>
+
+        <h2>Colors</h2>
+        <p>CSS supports color values in multiple formats:</p>
+        <ul>
+            <li><strong>Named Colors:</strong> Example: <code>color: navy;</code></li>
+            <li><strong>Hex Codes:</strong> Example: <code>color: #ffffff;</code></li>
+            <li><strong>RGB:</strong> Example: <code>color: rgb(255, 255, 255);</code></li>
+        </ul>
+
+        <h2>Fonts and Text</h2>
+        <p>CSS can style text in many ways:</p>
+        <ul>
+            <li><strong>Font Family:</strong> Specifies the font. Example: <code>font-family: Arial, sans-serif;</code></li>
+            <li><strong>Font Size:</strong> Sets the size. Example: <code>font-size: 16px;</code></li>
+            <li><strong>Text Alignment:</strong> Aligns text. Example: <code>text-align: center;</code></li>
+        </ul>
+        <pre class="code-block">
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+        </pre>
+
+        <h2>Box Model</h2>
+        <p>The box model includes the following properties:</p>
+        <ul>
+            <li><strong>Margin:</strong> Space outside the element.</li>
+            <li><strong>Border:</strong> The edge around the element.</li>
+            <li><strong>Padding:</strong> Space inside the element, between the content and the border.</li>
+            <li><strong>Content:</strong> The actual content of the element.</li>
+        </ul>
+        <pre class="code-block">
+div {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid lightgoldenrodyellow;
+}
+        </pre>
+
+        <h2>Backgrounds</h2>
+        <p>CSS allows you to style backgrounds:</p>
+        <ul>
+            <li><strong>Background Color:</strong> Example: <code>background-color: darkgray;</code></li>
+            <li><strong>Background Image:</strong> Example: <code>background-image: url('background.jpg');</code></li>
+            <li><strong>Background Size:</strong> Example: <code>background-size: cover;</code></li>
+        </ul>
+        <pre class="code-block">
+body {
+    background-color: darkgray;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+        </pre>
+
+        <h2>Positioning</h2>
+        <p>CSS provides various ways to position elements:</p>
+        <ul>
+            <li><strong>Static:</strong> Default positioning.</li>
+            <li><strong>Relative:</strong> Position relative to its normal position.</li>
+            <li><strong>Absolute:</strong> Position relative to its nearest positioned ancestor.</li>
+            <li><strong>Fixed:</strong> Position relative to the viewport.</li>
+        </ul>
+        <pre class="code-block">
+div {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+        </pre>
+
+        <h2>Flexbox</h2>
+        <p>Flexbox is a powerful layout model:</p>
+        <pre class="code-block">
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        </pre>
+
+        <h2>Practice Exercise</h2>
+        <p>Style an HTML page with the following:</p>
+        <ul>
+            <li>Change the background color of the body to dark gray.</li>
+            <li>Center the heading horizontally and vertically.</li>
+            <li>Add a border to a div element.</li>
+        </ul>
+        <a href="htmltutorial.html" class="back-button">Back to HTML Tutorial</a>
+        <a href="jstutorial.html" class="next-button">Next: Learn JavaScript</a>
+    </div>
+</body>
+</html>

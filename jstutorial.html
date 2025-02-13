@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Tutorial</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Tutorial</h1>
+
+        <h2>What is JavaScript?</h2>
+        <p>JavaScript is a versatile programming language that allows you to create interactive and dynamic content for websites. It runs in the browser and can be used to build everything from animations to fully functional web applications.</p>
+
+        <h2>How to Include JavaScript</h2>
+        <p>JavaScript can be added to a webpage in two ways:</p>
+        <ul>
+            <li><strong>Inline:</strong> Using the <code>&lt;script&gt;</code> tag directly in the HTML file.</li>
+            <li><strong>External:</strong> Linking an external JavaScript file using the <code>&lt;script src="filename.js"&gt;&lt;/script&gt;</code> tag.</li>
+        </ul>
+
+        <pre class="code-block">
+&lt;!-- Inline Example --&gt;
+&lt;script&gt;
+    alert('Hello, World!');
+&lt;/script&gt;
+
+&lt;!-- External Example --&gt;
+&lt;script src="app.js"&gt;&lt;/script&gt;
+        </pre>
+
+        <h2>JavaScript Syntax</h2>
+        <p>The syntax is simple and similar to other programming languages:</p>
+        <ul>
+            <li>Statements end with a semicolon <code>;</code> (optional).</li>
+            <li>Variables can be declared with <code>let</code>, <code>const</code>, or <code>var</code>.</li>
+            <li>Functions perform specific tasks and are defined using <code>function</code>.</li>
+        </ul>
+
+        <pre class="code-block">
+let name = "John";
+const age = 25;
+function greet() {
+    console.log("Hello, " + name);
+}
+greet();
+        </pre>
+
+        <h2>Basic Concepts</h2>
+
+        <h3>Variables</h3>
+        <p>Variables are used to store data. Examples:</p>
+        <pre class="code-block">
+let x = 10;
+const y = 20;
+var z = x + y;
+console.log(z);
+        </pre>
+
+        <h3>Conditions</h3>
+        <p>Conditional statements control the flow of your code:</p>
+        <pre class="code-block">
+if (x > 5) {
+    console.log("x is greater than 5");
+} else {
+    console.log("x is 5 or less");
+}
+        </pre>
+
+        <h3>Loops</h3>
+        <p>Loops are used to execute a block of code repeatedly:</p>
+        <pre class="code-block">
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration: " + i);
+}
+        </pre>
+
+        <h2>DOM Manipulation</h2>
+        <p>JavaScript can be used to interact with the Document Object Model (DOM) to dynamically change the content of a webpage:</p>
+        <pre class="code-block">
+document.getElementById("myElement").innerText = "Hello, JavaScript!";
+        </pre>
+
+        <h2>Events</h2>
+        <p>JavaScript responds to user actions, called events:</p>
+        <pre class="code-block">
+document.getElementById("myButton").addEventListener("click", function() {
+    alert("Button clicked!");
+});
+        </pre>
+
+        <a href="index.html" class="back-button">Back to Tutorials</a>
+    </div>
+</body>
+</html>

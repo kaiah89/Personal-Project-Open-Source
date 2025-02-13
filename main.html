@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Tutorial - Kai Personal Project</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Tutorial for Beginners</h1>
+        <p>HTML (HyperText Markup Language) is the backbone of any website. It's used to structure your web pages with elements like headings, paragraphs, images, and links.</p>
+
+        <h2>What is HTML?</h2>
+        <p>HTML is a markup language that uses tags to structure content on the web. Think of it as the skeleton of your website. Every webpage you see on the internet uses HTML!</p>
+
+        <h2>Basic Structure of an HTML Page</h2>
+        <p>Every HTML document follows a basic structure. Here's an example:</p>
+        <pre class="code-block">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My First Website&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Welcome to My Website!&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h2>Understanding the Code</h2>
+        <ul>
+            <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declares the document type as HTML5.</li>
+            <li><strong>&lt;html&gt;</strong>: The root element of the document.</li>
+            <li><strong>&lt;head&gt;</strong>: Contains metadata like the title and links to CSS files.</li>
+            <li><strong>&lt;body&gt;</strong>: Contains the visible content of the page.</li>
+        </ul>
+
+        <h2>Adding Headings</h2>
+        <p>Headings are created using the &lt;h1&gt; to &lt;h6&gt; tags. Here's what they look like:</p>
+        <h1>This is a Main Heading</h1>
+        <h2>This is a Subheading</h2>
+        <pre class="code-block">
+&lt;h1&gt;This is a Main Heading&lt;/h1&gt;
+&lt;h2&gt;This is a Subheading&lt;/h2&gt;
+        </pre>
+
+        <h2>Adding Paragraphs</h2>
+        <p>Paragraphs are created using the &lt;p&gt; tag. Here’s an example:</p>
+        <p>This is a paragraph of text.</p>
+        <pre class="code-block">
+&lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+        </pre>
+
+        <h2>Adding Links</h2>
+        <p>Links are created using the &lt;a&gt; tag. Here's how a link looks:</p>
+        <a href="https://www.example.com">Visit Example</a>
+        <pre class="code-block">
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+        </pre>
+
+        <h2>Adding Images</h2>
+        <p>Images are added using the &lt;img&gt; tag. Here’s an example:</p>
+        <img src="exampleimage1.jpg" alt="Description of the image">
+        <pre class="code-block">
+&lt;img src="image.jpg" alt="Description of the image"&gt;
+        </pre>
+
+        <h2>Practice Exercise</h2>
+        <p>Try creating your own HTML page using the following structure:</p>
+        <pre class="code-block">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My Practice Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+        &lt;a href="https://www.google.com"&gt;Visit Google&lt;/a&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h2>Creating Lists</h2>
+        <p>HTML allows you to create ordered and unordered lists. Here’s an example of each:</p>
+        <h3>Unordered List:</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+        </ul>
+        <pre class="code-block">
+&lt;ul&gt;
+    &lt;li&gt;Apples&lt;/li&gt;
+    &lt;li&gt;Bananas&lt;/li&gt;
+    &lt;li&gt;Cherries&lt;/li&gt;
+&lt;/ul&gt;
+        </pre>
+        
+        <h3>Ordered List:</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+        <pre class="code-block">
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+        </pre>
+
+        <h2>Adding Tables</h2>
+        <p>Tables are used to organize data in rows and columns. Here’s an example:</p>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Kai</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Pogba</td>
+                <td>31</td>
+            </tr>
+        </table>
+        <pre class="code-block">
+&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kai&lt;/td&gt;
+        &lt;td&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Pogba&lt;/td&gt;
+        &lt;td&gt;31&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+        </pre>
+
+        <h2>Adding Forms</h2>
+        <p>Forms allow you to collect user input. Here’s an example of a simple form:</p>
+        <form action="submit.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <pre class="code-block">
+&lt;form action="submit.html" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+        </pre>
+
+        <h2>HTML Semantic Elements</h2>
+        <p>HTML5 introduces semantic elements that give meaning to your content. Examples include:</p>
+        <ul>
+            <li>&lt;header&gt;: Represents the header of a page or section.</li>
+            <li>&lt;footer&gt;: Represents the footer of a page or section.</li>
+            <li>&lt;main&gt;: Represents the main content of the document.</li>
+            <li>&lt;article&gt;: Represents a self-contained piece of content.</li>
+            <li>&lt;aside&gt;: Represents content that is tangentially related to the main content.</li>
+        </ul>
+        <pre class="code-block">
+&lt;header&gt;
+    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+    &lt;article&gt;
+        &lt;h2&gt;Blog Post&lt;/h2&gt;
+        &lt;p&gt;This is my first blog post!&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;© 2024 Kai's Tutorial&lt;/p&gt;
+&lt;/footer&gt;
+        </pre>
+
+        <h2>Best Practices</h2>
+        <h2>Adding Links</h2>
+        <p>Links are created using the <code>&lt;a&gt;</code> tag. Example:</p>
+        <pre class="code-block">
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+        </pre>
+        <p>The <code>href</code> attribute specifies the URL of the page the link goes to. In this case, it directs to <code>https://www.arsenal.com</code> when clicked.</p>
+
+        <h2>Adding Images</h2>
+        <p>Images are added using the <code>&lt;img&gt;</code> tag. Example:</p>
+        <pre class="code-block">
+&lt;img src="image.jpg" alt="Description of the image"&gt;
+        </pre>
+        <p>The <code>src</code> attribute specifies the source of the image, and the <code>alt</code> attribute provides a text description for the image, which helps with accessibility.</p>
+
+        <h2>Practice Exercise</h2>
+        <p>Try creating your own HTML page using the following structure:</p>
+        <pre class="code-block">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My Practice Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+        &lt;a href="https://www.google.com"&gt;Visit Google&lt;/a&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        <h2>Creating Lists</h2>
+        <p>HTML allows you to create ordered and unordered lists:</p>
+        <h3>Unordered List</h3>
+        <pre class="code-block">
+&lt;ul&gt;
+    &lt;li&gt;Apples&lt;/li&gt;
+    &lt;li&gt;Bananas&lt;/li&gt;
+    &lt;li&gt;Cherries&lt;/li&gt;
+&lt;/ul&gt;
+        </pre>
+        <h3>Ordered List</h3>
+        <pre class="code-block">
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+        </pre>
+
+        <h2>Adding Tables</h2>
+        <p>Tables are used to organize data in rows and columns. Here’s an example:</p>
+        <pre class="code-block">
+&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kai&lt;/td&gt;
+        &lt;td&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alex&lt;/td&gt;
+        &lt;td&gt;20&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+        </pre>
+        <p>Here, the <code>border</code> attribute adds a border around the table cells, while <code>&lt;th&gt;</code> represents table headers, and <code>&lt;td&gt;</code> represents table data.</p>
+
+        <h2>Adding Forms</h2>
+        <p>Forms allow you to collect user input. Here’s how you can create a simple form:</p>
+        <pre class="code-block">
+&lt;form action="submit.html" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+        </pre>
+        <p>In this example, the <code>action</code> attribute specifies where to send the form data, and the <code>method</code> attribute specifies the HTTP method (in this case, <code>post</code>) to use when sending the data.</p>
+
+        <h2>HTML Semantic Elements</h2>
+        <p>HTML5 introduces semantic elements that give meaning to your content. Examples include:</p>
+        <ul>
+            <li><code>&lt;header&gt;</code>: Represents the header of a page or section.</li>
+            <li><code>&lt;footer&gt;</code>: Represents the footer of a page or section.</li>
+            <li><code>&lt;main&gt;</code>: Represents the main content of the document.</li>
+            <li><code>&lt;article&gt;</code>: Represents a self-contained piece of content.</li>
+            <li><code>&lt;aside&gt;</code>: Represents content that is tangentially related to the main content.</li>
+        </ul>
+        <pre class="code-block">
+&lt;header&gt;
+    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+    &lt;article&gt;
+        &lt;h2&gt;Blog Post&lt;/h2&gt;
+        &lt;p&gt;This is my first blog post!&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;© 2024 Kai's Tutorial&lt;/p&gt;
+&lt;/footer&gt;
+        </pre>
+        <p>In this example, the <code>&lt;header&gt;</code> element is used for the page header, <code>&lt;main&gt;</code> for the main content, and <code>&lt;footer&gt;</code> for the footer.</p>
+
+        <h2>Best Practices</h2>
+        <ul>
+            <li>Use semantic tags to make your HTML meaningful.</li>
+            <li>Always close your tags properly.</li>
+            <li>Indent your code to make it more readable.</li>
+            <li>Use comments (<code>&lt;!-- comment --&gt;</code>) to explain complex sections of code.</li>
+        </ul>
+
+        <h2>Practice Exercise</h2>
+        <p>Create a webpage with the following:</p>
+        <ul>
+            <li>A heading that says "My Favorite Foods".</li>
+            <li>An unordered list of 5 foods.</li>
+            <li>A table with columns for food names and their calorie counts.</li>
+            <li>A form that lets users suggest a new food.</li>
+        </ul>
+
+        <a href="csstutorial.html" class="next-button">Next: Learn CSS</a>
+    </div>
+
+    <a href="intro page.html" class="back-button">Back to Introduction</a>
+</body>
+</html>
